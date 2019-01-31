@@ -1162,4 +1162,4 @@ user_pref("security.ssl3.rsa_aes_128_sha",			true); // 0x2f
 user_pref("browser.tabs.closeWindowWithLastTab",		false);
 
 //PREF: Allow playing media even without switching to new tab first
-user_pref("media.block-autoplay-until-in-foreground",		true);
+user_pref("media.block-autoplay-until-in-foreground",		false);
