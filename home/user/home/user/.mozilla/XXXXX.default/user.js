@@ -763,7 +763,7 @@ user_pref("privacy.clearOnShutdown.cookies",			false);
 user_pref("privacy.clearOnShutdown.downloads",			true);
 user_pref("privacy.clearOnShutdown.formdata",			true);
 user_pref("privacy.clearOnShutdown.history",			true);
-user_pref("privacy.clearOnShutdown.offlineApps",		true);
+user_pref("privacy.clearOnShutdown.offlineApps",		false);
 user_pref("privacy.clearOnShutdown.sessions",			false);
 user_pref("privacy.clearOnShutdown.openWindows",		true);
 
@@ -771,7 +771,7 @@ user_pref("privacy.clearOnShutdown.openWindows",		true);
 user_pref("privacy.sanitize.timeSpan",				0);
 
 // PREF: Clear everything but "Site Preferences" in "Clear Recent History"
-user_pref("privacy.cpd.offlineApps",				true);
+user_pref("privacy.cpd.offlineApps",				false);
 user_pref("privacy.cpd.cache",					true);
 user_pref("privacy.cpd.cookies",				false);
 user_pref("privacy.cpd.downloads",				true);
