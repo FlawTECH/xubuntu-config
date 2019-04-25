@@ -1163,3 +1163,11 @@ user_pref("browser.tabs.closeWindowWithLastTab",		false);
 
 //PREF: Allow playing media even without switching to new tab first
 user_pref("media.block-autoplay-until-in-foreground",		false);
+
+//PREF: Prevent popups from blocking URL bar, menu, ...
+user_pref("dom.disable_window_move_resize",                 true);
+user_pref("dom.disable_window_open_feature.close",          true);
+user_pref("dom.disable_window_open_feature.menubar",        true);
+user_pref("dom.disable_window_open_feature.minimizable",    true);
+user_pref("dom.disable_window_open_feature.personalbar",    true);
+user_pref("dom.disable_window_open_feature.toolbar",        true);
